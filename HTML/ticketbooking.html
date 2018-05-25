@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ticket Booking Page</title>
+	<link rel="stylesheet" type="text/css" href="tb.css">
+	<script src="code_generate.js"></script>
+</head>
+<body>
+<!--	<h1 style="border:solid thick crimson;height:40;border-width:5px;background-color:crimson;color:white;font-family:courier;font-size:08;margin-top:-10px;">
+	<a href="Home_page.html"><img src="logo1.png" height=70 width="90"></a></h1>
+	<h1 style="text-align:center;margin-top:-60px;color:white;">Checkout Window</h1>
+	-->
+	<div class="tb">
+		<div class="container" ;">
+			<form onsubmit="return form_validate(this)" >
+				<br>
+				<input type="text" id="fname" placeholder="First Name " value="">
+				<input type="text" id="lname" placeholder="Last Name" value="">
+				<br>
+				<input type="text" id="email" placeholder="Email address" value=""><br>
+				
+				<select id="countries" onchange="code_gen()">
+					<option value="slt" >Select Your Country</option>
+					<option value="india" >India</option>
+					<option value="China" >China</option>
+					<option value="Australia" >Australia</option>
+					<option value="France" >France</option>
+					<option value="Japan" >Japan</option>
+					<option value="Us" >U.S.A.</option>
+					<option value="Uk" >U.K.</option>
+				</select><br><br>
+				
+				<input type="text" id="city" placeholder="City"><br>
+				
+				<input type="text" id="num" placeholder="Mobile Number"><br>
+					
+				<input type="submit" name="bt" value="Book Ticket" class="login-button">
+				
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

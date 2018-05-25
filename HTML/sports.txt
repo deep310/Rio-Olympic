@@ -1,0 +1,18 @@
+<!DOCTYPE>
+<html>
+
+<head>
+<title>front</title>
+</head>
+
+<body style="background-image:url(image/l.jpg);background-size:cover;bacground-repeat:no-repeat;background-attachment:fixed;">
+<p align="center">
+<table border="0" width="100%">
+<tr>
+<td><img src="image/b.gif" width="150" height="150">	</td>
+<td width="60%" height="10%">							</td>
+<td><h3>AUGUST</br>05 TO 21</br>THE NEW WORLD</h3></td>
+</tr>
+</table>
+</body>
+</html>

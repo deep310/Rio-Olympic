@@ -1,0 +1,28 @@
+<!DOCTYPE>
+<html>
+
+<head>
+<title>front</title>
+</head>
+
+<body>
+<p align=”center”>
+<table border=”1”>
+<tr>
+<th></th>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+</p>
+
+</body>
+</html>
